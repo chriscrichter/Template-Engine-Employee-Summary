@@ -1,0 +1,26 @@
+{
+  "name": "template-engine-employee-summary",
+  "version": "1.0.0",
+  "description": "OOP Homework: Template Engine - Employee Summary",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chriscrichter/Template-Engine-Employee-Summary.git"
+  },
+  "author": "chris_richter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chriscrichter/Template-Engine-Employee-Summary/issues"
+  },
+  "homepage": "https://github.com/chriscrichter/Template-Engine-Employee-Summary#readme",
+  "dependencies": {
+    "inquirer": "^7.0.4"
+  }
+}
