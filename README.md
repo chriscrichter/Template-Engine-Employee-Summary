@@ -11,7 +11,6 @@ This is a software engineering team generator command line application. The appl
 
 ![Image](https://raw.githubusercontent.com/chriscrichter/Template-Engine-Employee-Summary/master/assets/TeamSummary.png)
 
-TeamSummary.png
 ## GitHub page
 
 My GitHub page can be found here:
