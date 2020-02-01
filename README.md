@@ -9,7 +9,7 @@ This is a software engineering team generator command line application. The appl
 
 ![Demo](https://raw.githubusercontent.com/chriscrichter/Template-Engine-Employee-Summary/master/assets/TeamSummary.gif)
 
-<img src="assets/TeamSummaryHTML.png" width="1188px" height="612px">
+<img src="assets/TeamSummaryHTML.png" width="600" height="427">
 
 ## GitHub page
 
