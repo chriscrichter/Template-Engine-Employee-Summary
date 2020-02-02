@@ -10,8 +10,16 @@ This is a software engineering team generator command line application. The appl
 ![Demo](https://raw.githubusercontent.com/chriscrichter/Template-Engine-Employee-Summary/master/assets/TeamSummary.gif)
 
 <img src="assets/TeamSummaryHTML.png" width="600" height="350">
+team.html
 
-<img src="assets/Testing.png">
+<img src="assets/Testing.png" width="600" height="350">
+Test using Jest
+
+## Built Using
+
+* Node.js - JavaScript runtime
+* Inquirer - Interactive command line interface (CLI)
+* Jest - JavaScript testing library
 
 ## GitHub page
 
