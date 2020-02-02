@@ -10,7 +10,6 @@ async function start(){
     console.log("Please share info about your team...");
 
     let teamHTML = "";
-
     let teamSize;
 
     await inquirer.prompt(
@@ -22,7 +21,6 @@ async function start(){
     )
     
     .then((data) => {
-
         teamSize = data.numTeam + 1;
     });
     
@@ -33,7 +31,6 @@ async function start(){
     
     
     for(i = 1; i < teamSize; i++){
-
         let name;
         let id;
         let title;
@@ -42,7 +39,7 @@ async function start(){
         await inquirer.prompt([ 
             {
                 type: "input",
-                message: `What is employee (${i})'s name?`,
+                message: `What is the employee (${i})'s name?`,
                 name: "name"
             },
             {
@@ -63,7 +60,6 @@ async function start(){
             }
         ])
         .then((data) => {
-
             name = data.name;
             id = data.id;
             title = data.title;
@@ -72,7 +68,6 @@ async function start(){
 
         switch (title){
             case "Manager":
-
                 await inquirer.prompt([
                     {
                         type: "input",
@@ -94,7 +89,7 @@ async function start(){
                 await inquirer.prompt([
                     {
                         type: "input",
-                        message: "What school is your Intern attending?",
+                        message: "What school does your Intern attend?",
                         name: "school"
                     }
                 ])
@@ -109,7 +104,7 @@ async function start(){
                 await inquirer.prompt([
                     {
                         type: "input",
-                        message: "What is your GitHub username?",
+                        message: "What is your Engineer's GitHub username?",
                         name: "github"
                     }
                 ])
@@ -120,15 +115,12 @@ async function start(){
                 });
                 break;
                 
-            }
-            
+            }       
         }
 
-    const mainHTML = fs.readFileSync("templates/main.html");
-    
+    const mainHTML = fs.readFileSync("templates/main.html");    
     teamHTML = eval('`'+ mainHTML +'`');
     
-
     fs.writeFile("output/team.html", teamHTML, function(err) {
 
         if (err) {
