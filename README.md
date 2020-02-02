@@ -11,6 +11,8 @@ This is a software engineering team generator command line application. The appl
 
 <img src="assets/TeamSummaryHTML.png" width="600" height="350">
 
+<img src="assets/Testing.png">
+
 ## GitHub page
 
 My GitHub page can be found here:
